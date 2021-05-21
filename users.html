@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>banking System</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/639af5b414.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- -------------------------------------------------------------------------- -->
+    <!-- -------------------------------------  Navigation  ---------------------------------------- -->
+    <!-- --------------------------------------------------------------------------- -->
+    <section id="users">
+      <div class="one">
+        <nav class="navbar bg-dark navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" id="name" href="">TSF Banking System</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link link-active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="users.html">All User</a>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown">
+                  <button
+                    class="btn btn-secondary dropdown-toggle nav-link"
+                    type="button"
+                    id="dropdownMenuButton"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Transaction History
+                  </button>
+                  <div
+                    id="updateHistory"
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton"
+                  ></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <!-- ------------------------------------------------------------------ -->
+    <!-- ----------------------------------   Data   ---------------------------------------- -->
+    <!-- ------------------------------------------------------------------- -->
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Name</th>
+          <th scope="col">Email</th>
+          <th scope="col">City</th>
+          <th scope="col">Balance</th>
+          <th scope="col">Registration No.</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Harry Watson</td>
+          <td>harry@gmail.com</td>
+          <td>New York</td>
+          <td id="1011">26000</td>
+          <td>1011 <button class="transferbtn">Transfer</button></td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Mark Traversy</td>
+          <td>MarkTr@gmail.com</td>
+          <td>Illinois</td>
+          <td id="1012">50000</td>
+          <td>1012 <button class="transferbtn">Transfer</button></td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>KennySmith</td>
+          <td>k.smith@gmail.com</td>
+          <td>California</td>
+          <td id="1013">65000</td>
+          <td>1013 <button class="transferbtn">Transfer</button></td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Robert Winget</td>
+          <td>robert@yahoo.com</td>
+          <td>Sydney</td>
+          <td id="1014">45000</td>
+          <td>1014 <button class="transferbtn">Transfer</button></td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>James Williams</td>
+          <td>james@gmail.com</td>
+          <td>Chicago</td>
+          <td id="1015">38000</td>
+          <td>1015 <button class="transferbtn">Transfer</button></td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>Zane Davis</td>
+          <td>zanedavis@gmail.com</td>
+          <td>Chicago</td>
+          <td id="1016">87000</td>
+          <td>1016 <button class="transferbtn">Transfer</button></td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>Jennifer Garcia</td>
+          <td>msgarci@gmail.com</td>
+          <td>California</td>
+          <td id="1017">68000</td>
+          <td>1017 <button class="transferbtn">Transfer</button></td>
+        </tr>
+        <tr>
+          <th scope="row">8</th>
+          <td>Alice Miller</td>
+          <td>alimiller@gmail.com</td>
+          <td>Sydney</td>
+          <td id="1018">44000</td>
+          <td>1018 <button class="transferbtn">Transfer</button></td>
+        </tr>
+        <tr>
+          <th scope="row">9</th>
+          <td>John Jones</td>
+          <td>john@gmail.com</td>
+          <td>Boston</td>
+          <td id="1019">22000</td>
+          <td>1019 <button class="transferbtn">Transfer</button></td>
+        </tr>
+        <tr>
+          <th scope="row">10</th>
+          <td>Albert Johnson</td>
+          <td>albert123@gmail.com</td>
+          <td>Chicago</td>
+          <td id="1020">30000</td>
+          <td>1020 <button class="transferbtn">Transfer</button></td>
+        </tr>
+      </tbody>
+    </table>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>

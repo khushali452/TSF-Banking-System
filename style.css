@@ -1,0 +1,122 @@
+
+  
+  .container-fluid{
+    padding: 3% 15%;
+}
+
+.navbar-brand
+{
+   
+   font-size: 25px !important;
+   font-family: "Montserrat";
+}
+
+.navbar-nav { 
+           margin-left: auto; 
+       } 
+.nav-item
+{
+   padding: 0 18px;
+}
+
+.nav-link
+{
+   font-family: "Montserrat";
+   font-size: 1.4rem;
+}
+
+.navbar
+{
+   padding:0 0 1rem;
+}
+
+.home{
+   position: relative;
+}
+body{
+   background-image: url('./iStock-913219882.jpg');
+}
+
+#dropdownMenuButton{
+   background-color: #212529;
+   border: none;
+}
+
+.transferbtn{
+   font-weight: 700;
+   background: transparent;
+   width: 120px;
+   text-transform: uppercase;
+   border-width: 3px;
+   border-radius: 15px;
+   font-size: 15px;
+   display: inline-block;
+   padding: 10px 16px;
+   margin: 0 3px 0 0;
+   cursor: pointer;
+   transition-duration: 0.1s;
+   transition-timing-function: ease-in-out;
+   margin-left: 80px;
+   margin-left: 20%;
+   border-radius: 8px;
+   padding: 8px 16px;
+   border: none;
+   box-shadow: 3px 3px;
+   color: #fff;
+   background-color: rgba(238, 32, 32, 0.6);
+}
+
+.transferbtn:hover{
+   font-weight: 700;
+   background: transparent;
+   width: 120px;
+   text-transform: uppercase;
+   border-width: 3px;
+   border-radius: 15px;
+   font-size: 15px;
+   display: inline-block;
+   padding: 10px 16px;
+   margin: 0 3px 0 0;
+   cursor: pointer;
+   transition-duration: 0.1s;
+   transition-timing-function: ease-in-out;
+   margin-left: 80px;
+   margin-left: 20%;
+   border-radius: 8px;
+   padding: 8px 16px;
+   border: none;
+   background-color: #fff;
+   color: rgb(238, 32, 32)
+}
+
+#home{
+   
+   font-weight: bolder;
+   text-align: center;
+   color: antiquewhite;
+   font-family: "Montserrat";
+
+}
+
+.heading{
+   font-weight: bolder;
+   padding-top: 10%;
+   padding-left: 23%;
+   font-size: 4rem;
+}
+
+.table{
+   background: transparent;
+   color: white;
+   font-weight: 500;
+   font-size: larger;
+}
+
+#updateHistory{
+   width: 280px;
+   font-weight: 500;
+   background-color: #212529;
+   color: #fff;
+   margin-right: 20px;
+   padding: 3px 5px;
+}
